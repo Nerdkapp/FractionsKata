@@ -9,4 +9,10 @@ public class FractionsTest {
     Fraction result = new Fraction(0).add(new Fraction(0));
     assertEquals(new Fraction(0),result);
   }
+
+  @Test
+  public void one_plus_one() throws Exception {
+    Fraction result = new Fraction(1).add(new Fraction(1));
+    assertEquals(new Fraction(2),result);
+  }
 }
